@@ -50,7 +50,7 @@
   "scripts": {
     "setup": "npm install && bower install --allow-root",
     "dev-server": "grunt serve",
-    "prod-build": "NODE_ENV=production grunt build",
+    "prod-build": "NODE_ENV=production grunt build --force",
     "test": "node ./node_modules/.bin/webdriver-manager update && grunt test"
   }
 }
